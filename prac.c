@@ -10,9 +10,21 @@ int main(){
 // cmd + shift + b for save and run 
   
 
-    int x;
-    scanf("%d",&x);
-    (x%7==0) ? printf("%d" , (int)(x*4.0)) : printf("%0.4f",(x/3.0) ) ;
+    // Write a program to check whether a given year is a leap year (divisible by 4, 
+    // but not by 100 unless also by 400). Input: 2024  Output: Leap Year
+
+    int yr;
+    scanf("%d",&yr);
+    if(yr%4==0 ){
+        if(yr%100!=0 || yr%400==0){
+                printf("Leap year");
+        }else{
+            printf("Not leap year");
+        }
+    }else{
+        printf("Not leap year");
+    }
+
 
 
     return 0;
