@@ -46,17 +46,17 @@ int main (){
 
     
 
-        // int k,n;
-        // scanf("%d %d", &k,&n);
+    //     int k,n;
+    //     scanf("%d %d", &k,&n);
 
-        // for (int i = 0; i < n; i++)
-        // {
+    //     for (int i = 0; i < n; i++)
+    //     {
             
-        //     printf("%d\n",k*(i+1));
+    //         printf("%d\n",k*(i+1));
             
-        // }
+    //     }
         
-        // return 0;
+    //     return 0;
 
 
     // int N ,i ;
@@ -98,6 +98,21 @@ int main (){
     // {
     //     printf("%d\n",a*i);
     // }
+
+    // int a,b,result =1;
+    // scanf("%d %d",&a,&b);
+    // int i=1;
+    // do{
+    //     result=(result*a);
+    //     i++;
+    //     printf("%d\n",result);
+    // }while (i<=b);
+
+    // printf("\n%d",result);
+    
+
+
+
 
 
     
