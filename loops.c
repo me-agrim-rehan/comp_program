@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main (){
 
-    int n,sum;
+    // int n,sum;
     // for(i=0; i<= 10;i++){
     //     printf("%d\n",i );
     // }
@@ -41,7 +41,66 @@ int main (){
     // do{    
     // scanf("%d",&n);}
     // while(n%7!=0);
+    
+    // Print multiples of K up to N
 
+    
+
+        // int k,n;
+        // scanf("%d %d", &k,&n);
+
+        // for (int i = 0; i < n; i++)
+        // {
+            
+        //     printf("%d\n",k*(i+1));
+            
+        // }
+        
+        // return 0;
+
+
+    // int N ,i ;
+    // scanf("%d",&N);
+    // int a= 0;
+    // while(i<=N){
+    //     a = a+i;
+    //     i++;
+    // }
+    // printf("%d",a);
+
+
+
+    // int N ,i = 0;
+    // scanf("%d",&N);
+    // int a= 0;
+    // while(i<=N){
+    //     a = a+i;
+    //     i= i+2;
+    //     printf("%d\n",a);
+    // }
+    // printf("\n%d",a);
+
+
+
+    // int N ,i;
+    // scanf("%d",&N);
+    // int a= 1;
+    // while(i<=N){
+    //     a = a*(i); 
+    //     i++;
+    //     printf("%d\n",a);
+    // }
+    // printf("\n%d",a);
+
+    // int a;
+    // scanf("%d",&a);
+    // for (int i = 1; i <=10; i++)
+    // {
+    //     printf("%d\n",a*i);
+    // }
+
+
+    
 
 
 }
