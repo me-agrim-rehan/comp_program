@@ -99,16 +99,16 @@ int main (){
     //     printf("%d\n",a*i);
     // }
 
-    // int a,b,result =1;
-    // scanf("%d %d",&a,&b);
-    // int i=1;
-    // do{
-    //     result=(result*a);
-    //     i++;
-    //     printf("%d\n",result);
-    // }while (i<=b);
+    int a,b,result =1;
+    scanf("%d %d",&a,&b);
+    int i=1;
+    do{
+        result=(result*a);
+        i++;
+        printf("%d\n",result);
+    }while (i<=b);
 
-    // printf("\n%d",result);
+    printf("\n%d",result);
     
 
 
