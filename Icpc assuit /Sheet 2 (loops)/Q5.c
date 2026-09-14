@@ -4,16 +4,10 @@ int main(){
     int i=1;
     scanf("%d",&count);
      int max = 0;
-    while(i<=count){
-
-        int n;
-        scanf("%d", &n);
-        if(n>=max){
-            max = n;
-        }
-
-        i++;
-
+    while(i<count){
+        int n =0;
+        scanf("%d\n",&n);
+        break;
     }
     printf("%d",max);
 }

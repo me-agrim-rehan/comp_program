@@ -33,10 +33,10 @@ int main (){
     //     printf("%d\n",i);
     // }
    
-   
-    // do{    
-    // scanf("%d",&n);
-    // }while(n%2==0);
+//    int n;
+//     do{          
+//     scanf("%d",&n);
+//     }while(n%2==0);
 
     // do{    
     // scanf("%d",&n);}
@@ -82,15 +82,15 @@ int main (){
 
 
 
-    // int N ,i;
-    // scanf("%d",&N);
-    // int a= 1;
-    // while(i<=N){
-    //     a = a*(i); 
-    //     i++;
-    //     printf("%d\n",a);
-    // }
-    // printf("\n%d",a);
+    int N ,i;
+    scanf("%d",&N);
+    int a= 1;
+    while(i<=N){
+        a = a*(i); 
+        i++;
+        printf("%d\n",a);
+    }
+    printf("\n%d",a);
 
     // int a;
     // scanf("%d",&a);
@@ -99,16 +99,16 @@ int main (){
     //     printf("%d\n",a*i);
     // }
 
-    int a,b,result =1;
-    scanf("%d %d",&a,&b);
-    int i=1;
-    do{
-        result=(result*a);
-        i++;
-        printf("%d\n",result);
-    }while (i<=b);
+    // int a,b,result =1;
+    // scanf("%d %d",&a,&b);
+    // int i=1;
+    // do{
+    //     result=(result*a);
+    //     i++;
+    //     printf("%d\n",result);
+    // }while (i<=b);
 
-    printf("\n%d",result);
+    // printf("\n%d",result);
     
 
 
