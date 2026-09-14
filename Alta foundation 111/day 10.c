@@ -10,10 +10,9 @@ if(yrs>=1 && mon<=12 && mon>0){
     if(days > 31 || days<=0) {
         printf("Invalid Date");
     } else {
-        if(yrs % 4 == 0) {
-            if(yrs % 100 != 0 || yrs % 400 == 0) {
-                if(mon == 2 && days > 29) {
-                    printf("Invalid Date");
+            if((yrs % 4 == 0 &&yrs % 100 != 0)|| yrs % 400 == 0) {
+                if(mon == 2 && days <= 29) {
+                    printf("valid Date");
                 } else {
                     if((mon==1 ||mon==3 || mon==5 || mon==7 ||mon==8 ||mon==10 ||mon==12) && days<=31){
                         printf("Valid date");
@@ -29,13 +28,15 @@ if(yrs>=1 && mon<=12 && mon>0){
             } else {
                 if(mon == 2 && days > 28) {
                     printf("Invalid Date");
-                } else {
+                } else if((mon==4 || mon==6 || mon==9 || mon==11) && days >=30){
+                    printf("Invalid Date");
+                }else{
                     printf("Valid Date");
                 }
             }
-        }
     }
-}else{
+    }else{
     printf("Invalid Date");
 }
+
 }
