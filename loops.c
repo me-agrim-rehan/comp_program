@@ -86,7 +86,7 @@ int main (){
     scanf("%d",&N);
     int a= 1;
     while(i<=N){
-        a = a*(i); 
+        a*=(i); 
         i++;
         printf("%d\n",a);
     }
