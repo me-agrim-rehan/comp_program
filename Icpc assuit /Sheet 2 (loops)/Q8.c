@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdbool.h>
+
+int main() {
+    int a;
+    bool prime = true;
+    scanf("%d", &a);
+    for (int i = 2; i < a; i++){
+
+        if (a%i==0)
+        {
+            prime = false;
+        }
+        
+    }
+    
+    if (prime == false)
+    {
+        printf("NO");
+    }else{
+        printf("YES");
+    }
+    
+    
+    
+    return 0;
+}
