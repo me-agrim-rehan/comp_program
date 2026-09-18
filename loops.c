@@ -82,15 +82,15 @@ int main (){
 
 
 
-    int N ,i;
-    scanf("%d",&N);
-    int a= 1;
-    while(i<=N){
-        a*=(i); 
-        i++;
-        printf("%d\n",a);
-    }
-    printf("\n%d",a);
+    // int N ,i;
+    // scanf("%d",&N);
+    // int a= 1;
+    // while(i<=N){
+    //     a*=(i); 
+    //     i++;
+    //     printf("%d\n",a);
+    // }
+    // printf("\n%d",a);
 
     // int a;
     // scanf("%d",&a);
@@ -111,6 +111,28 @@ int main (){
     // printf("\n%d",result);
     
 
+        int a;
+        scanf("%d", &a);
+        for (int i = 1; i <=a; i++)
+        {
+            for (int j = 0; j < a-i; j++)
+            {
+                printf(" ");
+            }
+            
+            for (int z = 0; z < i; z++)
+            {
+                printf("-");
+            }
+            
+
+        printf("\n");
+        }
+
+
+        return 0;
+    }
+
 
 
 
@@ -118,4 +140,3 @@ int main (){
     
 
 
-}
