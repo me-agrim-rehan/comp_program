@@ -9,16 +9,16 @@ int main(){
 //Code below this 
 // cmd + shift + b for save and run 
   
-// Write a program that takes two numbers and an operator symbol (+, -, *, /) and performs the corresponding operation using switch-case on the operator. Input: 10 4 *  Output: 40
-
-
+// Write a program to print all numbers from N down to 1 using a while loop.
+//  Input: N = 5  Output: 5 4 3 2 1
 
     int N;
     scanf("%d", &N);
-    
-    for (int i = 1; i <= N; i++) {
-        printf("%d ",i);
+    int i = N;
+    while(i>0){
+        printf("%d ",i--);
     }
     return 0;
+
 
 }
