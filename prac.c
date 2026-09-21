@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(){
     #ifndef ONLINE_JUDGE
@@ -9,16 +10,29 @@ int main(){
 //Code below this 
 // cmd + shift + b for save and run 
   
-// Write a program to print all numbers from N down to 1 using a while loop.
-//  Input: N = 5  Output: 5 4 3 2 1
+// Write a program to check whether a given number is prime using a loop.
+ // Input: 29  Output: Prime
 
     int N;
     scanf("%d", &N);
-    int i = N;
-    while(i>0){
-        printf("%d ",i--);
+    bool prime = true;
+    
+    for (int i = 2; i < N; i++)
+    {
+        if(N%i==0){
+            prime = false;
+            break;
+        }
+
     }
+
+    if(prime == false){
+        printf("Not prime");
+    }else{
+        printf("prime");
+    
+    
     return 0;
 
-
+}
 }
