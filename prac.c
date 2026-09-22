@@ -10,29 +10,30 @@ int main(){
 //Code below this 
 // cmd + shift + b for save and run 
   
-// Write a program to check whether a given number is prime using a loop.
- // Input: 29  Output: Prime
 
     int N;
     scanf("%d", &N);
-    bool prime = true;
-    
-    for (int i = 2; i < N; i++)
+    int b = 1;
+    int a = 0;
+    for (int i = 1; i <= N ; i++)
     {
-        if(N%i==0){
-            prime = false;
-            break;
+        int c = a;
+        int x = a + b;
+        if(i==1){
+        printf("%d ",a);
+        continue;
         }
-
+        if(i==2){
+        printf("%d ",b);
+        continue;
+        }
+        printf("%d ",x);
+         a = b;
+         b = x;
     }
 
-    if(prime == false){
-        printf("Not prime");
-    }else{
-        printf("prime");
+
     
     
     return 0;
-
-}
 }
