@@ -2,13 +2,6 @@
 #include <stdbool.h>
 
 int main(){
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt", "r", stdin);
-        freopen("output.txt", "w", stdout);
-    #endif
-
-//Code below this 
-// cmd + shift + b for save and run 
  int n;
  scanf("%d",&n);
  int i = 0;
