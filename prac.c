@@ -9,23 +9,25 @@ int main(){
 
 //Code below this 
 // cmd + shift + b for save and run 
- int n;
- scanf("%d",&n);
- int i = 0;
- int org;
- int rev = 0;
-     org = n;
-while(n>0){
 
-
-    rev = rev * 10 + (n%10);
-    n = n/10;
-
-}
-    printf("%d\n",rev);
-    if(org==rev){
-        printf("YES");
-    }else{
-        printf("NO");
+// Write a program that prints numbers from 1 to N, but for multiples of 3 print "Fizz"
+// instead of the number, 
+// for multiples of 5 print "Buzz", and for multiples of both print "FizzBuzz". 
+// Input: N = 15
+    int N;
+    scanf("%d", &N);
+    for (int i = 1; i <= N; i++)
+    {
+        if(i%15==0){
+            printf("FizzBuzz\n");
+        }else if(i%5==0){
+            printf("Buzz\n");
+        }else if(i%3==0){
+            printf("Fizz\n");
+        }else{
+            printf("%d\n",i);
+        }
     }
+    
+    return 0;
 }
