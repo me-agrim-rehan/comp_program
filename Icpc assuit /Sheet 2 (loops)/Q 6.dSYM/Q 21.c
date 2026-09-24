@@ -15,6 +15,8 @@ while(n>0){
     n = n/10;
 
 }
+
+
     printf("%d\n",rev);
     if(org==rev){
         printf("YES");

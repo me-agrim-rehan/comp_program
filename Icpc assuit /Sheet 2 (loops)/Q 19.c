@@ -1,27 +1,50 @@
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main() {
-//     int count;
-//     int results[count]; 
+int main() {
+    int count;
+            int odd =0;
 
-//     scanf("%d", &count);
-//     for (int i = 0; i < count; i++)
-//     {
-//         int a,b;
-//         int odd =0;
-//         scanf("%d %d",&a,&b);
-//         for(int j=a;j>=a && j<b;j++){
-//             if(j%2!=0){
+    scanf("%d", &count);
+    for (int i = 0; i < count; i++)
+    {
+        int a,b;
 
-//                 odd += j;
-//             }
+        scanf("%d %d",&a,&b);
+        if(a>b){
+        for(int j=a ; j<b;j++){
+            if(j%2!=0){
 
-//         }
+                odd += j;
+            }
+            
 
-//         results[i] = odd;
-//             printf("%d\n",results[i]); 
-//     }
+        }
+
+            printf("%d\n",odd); 
+            odd = 0;
+    }else if(b>a){
+        for (int i = 0; i < count; i++)
+    {
+        int a,b;
+
+        scanf("%d %d",&a,&b);
+        if(a>b){
+        for(int j=b ; j<a;j++){
+            if(j%2!=0){
+
+                odd += j;
+            }
+            
+
+        }
+
+            printf("%d\n",odd); 
+            odd = 0;
+    }
+    }
 
 
-//     return 0;
-// }
+
+    return 0;
+}}
+}
