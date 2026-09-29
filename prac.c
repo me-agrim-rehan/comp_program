@@ -19,22 +19,26 @@ int main(){
 
 
 
-     int i = n;
-     while (i!=1)
-     {
-         if (i%2==0)
-        {
-            i=i/2;
+    //  int i = n;
+    //  while (i!=1)
+    //  {
+    //      if (i%2==0)
+    //     {
+    //         i=i/2;
 
-        }else{
+    //     }else{
 
-            i = (i*3)+1;
-        }
-        printf("%d ",i);
+    //         i = (i*3)+1;
+    //     }
+    //     printf("%d ",i);
 
 
-     }
+    //  }
      
+
+
+
+    
 }
 
 
