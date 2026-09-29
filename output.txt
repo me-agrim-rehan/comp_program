@@ -1,2 +1,1 @@
-Sum of integers = 33
-Sum of decimal numbers = 6.00
+41652
