@@ -1,6 +1,3 @@
-//Code below this 
-// cmd + shift + b for save and run 
-
 #include <stdio.h>
 
 int s(int a, int b)
@@ -46,15 +43,8 @@ int l(int a, int b, int c)
         return c;
 }
 
-
-
-int main(){
-    // #ifndef ONLINE_JUDGE
-    //     freopen("input.txt", "r", stdin);
-    //     freopen("output.txt", "w", stdout);
-    // #endif
-
-
+int main()
+{
     int c, a, b, d;
 
     while (1)
@@ -110,16 +100,3 @@ int main(){
 
     return 0;
 }
-     
-
-
-
-    
-
-
-
-
-
-
-
-
